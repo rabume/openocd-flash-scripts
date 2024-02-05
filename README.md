@@ -38,3 +38,9 @@ Make sure you called your .bin file `firmware.bin`
 ```bash
 openocd -f flash.cfg
 ```
+
+**Verify firmware**
+
+```bash
+openocd -f verify.cfg
+```
