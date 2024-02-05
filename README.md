@@ -24,6 +24,7 @@ cd openocd
 make
 sudo make install
 ```
+Navigate to the directory containing these scripts and execute one of the following commands:
 
 **Dump firmware**
 
@@ -32,6 +33,7 @@ openocd -f dump.cfg
 ```
 
 **Flash firmware**
+Make sure you called your .bin file `firmware.bin`
 
 ```bash
 openocd -f flash.cfg
